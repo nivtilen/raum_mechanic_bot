@@ -17,10 +17,10 @@ Telegram-бот для вопросов по Toyota Raum (1997-2003)
 
 1. Склонируйте репозиторий:
 
-   git clone https://github.com/your_repo/toyota-raum-bot.git
-   cd toyota-raum-bot
+   git clone https://github.com/nivtilen/raum_mechanic_bot.git
+   cd raum_mechanic_bot
 
-2. Создайте и заполните файл .env (или .env.example для шаблона):
+2. Создайте и заполните файл .env:
 
    GEMINI_KEYS=gemini_key1,gemini_key2,gemini_key3
    API_TOKEN=your_telegram_bot_token
@@ -28,6 +28,10 @@ Telegram-бот для вопросов по Toyota Raum (1997-2003)
 3. Установите зависимости:
 
    pip install -r requirements.txt
+
+4. Скачайте базу знаний
+
+   https://storage.yandexcloud.net/quizz-storage/embeddings.jsonl
 
 4. Запустите бота:
 
@@ -61,7 +65,7 @@ Telegram-бот для вопросов по Toyota Raum (1997-2003)
 
 ---
 
-Пример вопроса
+Примеры запросов
 
 ![Пример ответа](example_images/example1.png)
 ![Пример ответа](example_images/example2.png)
