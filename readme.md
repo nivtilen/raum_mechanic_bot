@@ -13,6 +13,12 @@ Telegram-бот для вопросов по Toyota Raum (1997-2003)
 
 ---
 
+Описание создания базы знаний можно посмотреть в гугл блокноте.
+
+https://colab.research.google.com/drive/1uyyGcDXCiU0sL2Qnylip0p7doR3tbQHZ?usp=sharing
+
+---
+
 Установка и запуск
 
 1. Склонируйте репозиторий:
